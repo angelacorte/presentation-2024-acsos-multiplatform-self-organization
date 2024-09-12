@@ -54,11 +54,15 @@
 
 #new-section-slide("What?")
 
-#slide(title: "What I want to do")[
+#slide(title: "Context")[
   
 ]
 
-#slide(title: "What I've done")[
+#slide(title: "Goal")[
+  
+]
+
+#slide(title: "Reached")[
   
 ]
 
