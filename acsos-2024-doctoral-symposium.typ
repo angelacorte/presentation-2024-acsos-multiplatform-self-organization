@@ -61,7 +61,7 @@
 
       *Challenges*: heterogeneity, scalability, and fault tolerance.
 
-      Among the existing frameworks, *Aggregate Computing* (AC) can help to address these challenges.
+      Among the existing frameworks, *Aggregate Computing* (AC) can help address these challenges.
     ], [
       #figure(
         image("figures/smartcity.png", width: 120%),
@@ -71,10 +71,11 @@
 ]
 
 #slide(title: "Motivation")[
-  // *Self-organizing* systems requiring collective coordination are growing.
   #motivation
 
 ]
+
+#new-section-slide("What?")
 
 #slide(title: "Aggregate Computing")[
   #figure(
@@ -83,13 +84,7 @@
 
   AC defines the *collective behavior* of devices in self-organizing systems.
 
-  It manipulates distributed data structures called *fields*.
-]
-
-#new-section-slide("What?")
-
-#slide(title: "Goal")[
-  
+  It manipulates distributed data structures called "*fields*".
 ]
 
 #slide(title: "State of the Art")[
@@ -98,7 +93,7 @@
   )
 ]
 
-#new-section-slide[What if we changed at\ compiler level?]
+#new-section-slide[What if we changed the compiler?]
 
 #slide(title: "Reached")[
   #figure(
@@ -109,16 +104,18 @@
 
 #new-section-slide("How?")
 
-#slide(title: "Approach")[
-  
+#slide(title: "Example")[
+  #figure(
+    image("figures/code.svg", width: 81%),
+  )
 ]
 
 #new-section-slide("Potential impact")
 
-#slide(title: "trova un titolo")[
-  #figure(
-    image("figures/code.svg", width: 81%),
-  )
+#slide(title: "Application")[
+  The approach is viable.
+
+  The prototype has been used to reproduce some experiments.
 ]
 
 #slide(title: "Future Works")[
