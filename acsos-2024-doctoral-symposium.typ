@@ -52,27 +52,52 @@
   author: author,
 )
 
-#new-section-slide("What?")
+#new-section-slide("Why?")
 
-#slide(title: "Context")[
+#slide(title: "Motivation")[
+  *Self-organizing* systems requiring collective coordination are growing.
   
+  In smart cities scenarios e.g. _crowd management_ and _surveillance_, drones and sensors can help to monitor the environment.
+
+  *Challenges*: heterogeneity, scalability, and fault tolerance.
+
+  Frameworks like *Aggregate Computing* (AC) can help to address these challenges.
 ]
 
+#slide(title: "Aggregate Computing")[
+  AC defines the *collective behavior* of devices in self-organizing systems.
+
+  It manipulates distributed data structures called *fields*.
+]
+
+#new-section-slide("What?")
+
 #slide(title: "Goal")[
-  
+  Current AC systems run a *single complex algorithm*.
+
+  In dynamic environments a *flexible management* is needed.
+
+  Programs should be added, removed or paused *at runtime*.
+
+  Concepts similar to modern OSs -> idea of *collective operating systems*:\ OSs based on AC.
+]
+
+#slide(title: "Actual State of the Art")[
+  #figure(
+    image("figures/SOTA.svg", width: 100%),
+  )
 ]
 
 #slide(title: "Reached")[
-  
+  #figure(
+    image("figures/SOTAtable.svg", width: 100%),
+  )
+  A DSL-prototype in Kotlin Multiplatform called Collektive!
 ]
 
-#new-section-slide("Why?")
+#new-section-slide("How?")
 
-#slide(title: "Actual State of the Art")[
-  
-]
-
-#slide(title: "How?")[
+#slide(title: "Approach")[
   
 ]
 
