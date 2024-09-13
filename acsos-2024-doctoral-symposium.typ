@@ -40,31 +40,47 @@
 #let author = box[
   #table(inset: 0.5em, stroke: none, columns: (1fr, auto),  align: (left, right),
     [*Angela Cortecchia*], [angela.cortecchia\@unibo.it],
-    [Supervisor: Prof. _Danilo Pianini_],[GARR research fellow \@UniBo]
+    [Supervisor: Prof. _Danilo Pianini_],[GARR research fellow &\ (soon) PhD student \@UniBo]
   )
-  #place(right, dy:4em)[
+  #place(right, dy:3em)[
     #figure(image("images/disi.svg", width:30%))
   ]
 ]
 
 #title-slide(
-  title: "Aggregate Programming in Kotlin Multiplatform with Collektive",
+  title: "Multiplatform Self-Organizing Systems Through a Kotlin-MP Implementation of Aggregate Computing",
   author: author,
 )
 
 #new-section-slide("Why?")
 
+#let motivation = box[
+  #table(inset: 1.2em, stroke: none, columns: (1.5fr, 1.1fr), align: (left, left),
+     [
+      In smart cities scenarios e.g. _crowd management_ and _surveillance_, drones and sensors can help to monitor the environment.
+
+      *Challenges*: heterogeneity, scalability, and fault tolerance.
+
+      Among the existing frameworks, *Aggregate Computing* (AC) can help to address these challenges.
+    ], [
+      #figure(
+        image("figures/smartcity.png", width: 120%),
+      )
+    ]
+  )
+]
+
 #slide(title: "Motivation")[
-  *Self-organizing* systems requiring collective coordination are growing.
-  
-  In smart cities scenarios e.g. _crowd management_ and _surveillance_, drones and sensors can help to monitor the environment.
+  // *Self-organizing* systems requiring collective coordination are growing.
+  #motivation
 
-  *Challenges*: heterogeneity, scalability, and fault tolerance.
-
-  Frameworks like *Aggregate Computing* (AC) can help to address these challenges.
 ]
 
 #slide(title: "Aggregate Computing")[
+  #figure(
+    image("figures/acDevices.svg", width: 80%),
+  )
+
   AC defines the *collective behavior* of devices in self-organizing systems.
 
   It manipulates distributed data structures called *fields*.
@@ -73,20 +89,16 @@
 #new-section-slide("What?")
 
 #slide(title: "Goal")[
-  Current AC systems run a *single complex algorithm*.
-
-  In dynamic environments a *flexible management* is needed.
-
-  Programs should be added, removed or paused *at runtime*.
-
-  Concepts similar to modern OSs -> idea of *collective operating systems*:\ OSs based on AC.
+  
 ]
 
-#slide(title: "Actual State of the Art")[
+#slide(title: "State of the Art")[
   #figure(
     image("figures/SOTA.svg", width: 100%),
   )
 ]
+
+#new-section-slide[What if we changed at\ compiler level?]
 
 #slide(title: "Reached")[
   #figure(
@@ -103,8 +115,20 @@
 
 #new-section-slide("Potential impact")
 
-#slide(title: "Contribute")[
-  
+#slide(title: "trova un titolo")[
+  #figure(
+    image("figures/code.svg", width: 81%),
+  )
+]
+
+#slide(title: "Future Works")[
+  Current AC systems run a *single complex algorithm*.
+
+  In dynamic environments a *flexible management* is needed.
+
+  Programs should be added, removed or paused *at runtime*.
+
+  Concepts similar to modern OSs -> idea of *collective operating systems*:\ OSs based on AC.
 ]
 
 #let desc = box[
