@@ -42,6 +42,9 @@
     [*Angela Cortecchia*], [angela.cortecchia\@unibo.it],
     [Supervisor: Prof. _Danilo Pianini_],[GARR research fellow &\ (soon) PhD student \@UniBo]
   )
+  #place(left, dy:3em)[
+    #figure(image("figures/qr.svg", width:10%))
+  ]
   #place(right, dy:3em)[
     #figure(image("images/disi.svg", width:30%))
   ]
