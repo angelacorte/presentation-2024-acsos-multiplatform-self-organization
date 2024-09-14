@@ -113,19 +113,36 @@
 #new-section-slide("Potential impact")
 
 #slide(title: "Application")[
-  The approach is viable.
 
-  The prototype has been used to reproduce some experiments.
+  #table(inset: 1.2em, stroke: none, columns: (1.5fr, 1.5fr), align: (left, left),
+     [
+      #figure(
+       image("figures/channel.png", width: 79%),
+  )
+    ], [
+      The approach is viable: the prototype has been used to reproduce some experiments.
+    ]
+  )
+
+
+  
 ]
 
 #slide(title: "Future Works")[
-  Current AC systems run a *single complex algorithm*.
+  #table(inset: 1.2em, stroke: none, columns: (1.5fr, 1fr), align: (left, left),
+     [
+      Current AC systems run a *single complex algorithm*, but in dynamic environments a *flexible management* is needed.
 
-  In dynamic environments a *flexible management* is needed.
+    Programs should be added, removed or paused *at runtime*.
 
-  Programs should be added, removed or paused *at runtime*.
+    Concepts similar to modern OSs -> idea of *collective operating systems*:\ OSs based on AC.
 
-  Concepts similar to modern OSs -> idea of *collective operating systems*:\ OSs based on AC.
+    ], [
+      #figure(
+        image("figures/devs.svg", width: 100%),
+      )
+    ]
+  )
 ]
 
 #let desc = box[
