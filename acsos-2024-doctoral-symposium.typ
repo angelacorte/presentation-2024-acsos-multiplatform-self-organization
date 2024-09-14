@@ -57,9 +57,9 @@
 #let motivation = box[
   #table(inset: 1.2em, stroke: none, columns: (1.5fr, 1.1fr), align: (left, left),
      [
-      In smart cities scenarios e.g. _crowd management_ and _surveillance_, drones and sensors can help to monitor the environment.
+      In smart cities scenarios e.g. #underline[crowd management] and #underline[surveillance], drones and sensors can help to monitor the environment.
 
-      *Challenges*: heterogeneity, scalability, and fault tolerance.
+      #underline[*Challenges*]: heterogeneity, scalability, and fault tolerance.
 
       Among the existing frameworks, *Aggregate Computing* (AC) can help address these challenges.
     ], [
@@ -106,7 +106,7 @@
 
 #slide(title: "Example")[
   #figure(
-    image("figures/code.svg", width: 81%),
+    image("figures/code.png", width: 82%),
   )
 ]
 
