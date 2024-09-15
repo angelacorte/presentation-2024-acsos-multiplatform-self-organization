@@ -10,7 +10,7 @@
 
 #set text(font: "Inter", weight: "light", size: 20pt)
 #show math.equation: set text(font: "Fira Math")
-#set strong(delta: 150)
+#set strong(delta: 200)
 #set par(justify: true)
 #show figure.caption: set text(size: 14pt)
 
@@ -46,7 +46,7 @@
     #figure(image("figures/qr.svg", width:10%))
   ]
   #place(right, dy:3em)[
-    #figure(image("images/disi.svg", width:30%))
+    #figure(image("images/disi.svg", width:25%))
   ]
 ]
 
@@ -58,7 +58,7 @@
 #new-section-slide("Why?")
 
 #let motivation = box[
-  #table(inset: 1.2em, stroke: none, columns: (1.5fr, 1.1fr), align: (left, left),
+  #table(inset: 1.1em, stroke: none, columns: (1.5fr, 1.1fr), align: (left, left),
      [
       In smart cities scenarios e.g. #underline[crowd management] and #underline[surveillance], drones and sensors can help to monitor the environment.
 
@@ -81,13 +81,17 @@
 #new-section-slide("What?")
 
 #slide(title: "Aggregate Computing")[
-  #figure(
+  #table(inset: 0.3em, stroke: none, columns: (1fr), align: (center),[
+    #figure(
     image("figures/acDevices.svg", width: 80%),
-  )
-
+    )
+  ],[
   AC defines the *collective behavior* of devices in self-organizing systems.
 
   It manipulates distributed data structures called "*fields*".
+  ])
+  
+  
 ]
 
 #slide(title: "State of the Art")[
@@ -98,7 +102,7 @@
 
 #new-section-slide[What if we changed the compiler?]
 
-#slide(title: "Reached")[
+#slide(title: "Contribution")[
   #figure(
     image("figures/SOTAtable.svg", width: 100%),
   )
