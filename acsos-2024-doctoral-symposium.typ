@@ -75,7 +75,6 @@
 
 #slide(title: "Motivation")[
   #motivation
-
 ]
 
 #new-section-slide("What?")
@@ -83,7 +82,7 @@
 #slide(title: "Aggregate Computing")[
   #table(inset: 0.3em, stroke: none, columns: (1fr), align: (center),[
     #figure(
-    image("figures/acDevices.svg", width: 80%),
+    image("figures/acDevices.png", width: 80%),
     )
   ],[
   AC defines the *collective behavior* of devices in self-organizing systems.
