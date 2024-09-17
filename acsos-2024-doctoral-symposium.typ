@@ -99,7 +99,7 @@
   )
 ]
 
-#new-section-slide[What if we changed the compiler?]
+#new-section-slide[What if we change the compiler?]
 
 #slide(title: "Contribution")[
   #figure(
@@ -141,7 +141,7 @@
 
     Programs should be added, removed or paused *at runtime*.
 
-    Concepts similar to modern OSs -> idea of *collective operating systems*:\ OSs based on AC.
+    Concepts similar to modern OSs -> idea of *collective operating systems*.
 
     ], [
       #figure(
