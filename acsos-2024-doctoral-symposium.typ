@@ -64,7 +64,7 @@
 
       #underline[*Challenges*]: heterogeneity, scalability, and fault tolerance.
 
-      Among the existing frameworks, *Aggregate Computing* (AC) can help address these challenges.
+      Among the existing frameworks, *Aggregate Computing* (AC) can help to address these challenges.
     ], [
       #figure(
         image("figures/smartcity.png", width: 120%),
