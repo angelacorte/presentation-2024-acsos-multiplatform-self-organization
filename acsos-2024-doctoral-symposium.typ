@@ -60,7 +60,7 @@
 #let motivation = box[
   #table(inset: 1.1em, stroke: none, columns: (1.5fr, 1.1fr), align: (left, left),
      [
-      In smart cities scenarios e.g. #underline[crowd management] and #underline[surveillance], drones and sensors can help to monitor the environment.
+      In smart cities scenarios e.g. #underline[crowd management] and #underline[surveillance], drones and sensors can help monitor the environment.
 
       #underline[*Challenges*]: heterogeneity, scalability, and fault tolerance.
 
